@@ -97,9 +97,8 @@ myTerminal = "alacritty" -- Sets default terminal
 myBrowser :: String
 myBrowser = "firefox" -- Sets qutebrowser as browser
 
-myEditor ::
-  String
-    myEditor = myTerminal ++ " -e helix " -- Sets vim as editor
+myEditor :: String
+myEditor = myTerminal ++ " -e helix " -- Sets vim as editor
 
 myBorderWidth :: Dimension
 myBorderWidth = 2 -- Sets border width for windows
