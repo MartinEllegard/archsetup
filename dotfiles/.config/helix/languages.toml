@@ -1,0 +1,13 @@
+[[language]]
+name = "rust"
+auto-format = true
+
+[[language]]
+name = "c-sharp"
+language-server = { command = "omnisharp", args = [ "--languageserver" ] }
+auto-format = true
+
+[[language]]
+name = "haskell"
+language-server = {command = "haskell-language-server", args = ["--lsp"]}
+auto-format = true
